@@ -2,7 +2,7 @@
 A Python Flask app that generates personalized certificates from an Excel list and a template image. All certificates are compiled into a ZIP file for easy download. Ideal for workshops, courses, or events where multiple certificates are needed quickly.
 <hr>
 
-Features
+<h2>Features</h2>
 Upload Excel file (.xlsx) with participant names
 Upload certificate template image (PNG/JPEG)
 Automatically generates certificates with participant names
@@ -20,6 +20,7 @@ Pandas for handling Excel files
 Pillow (PIL) for image processing and text rendering
 Basic HTML with Bootstrap for a clean interface
 Project Structure
+
 
 certificate-generator/
 │── app.py # Flask backend
